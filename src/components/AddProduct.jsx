@@ -33,6 +33,7 @@ const AddProduct = ({ postData }) => {
           </label>
           <input
             type="text"
+            required
             placeholder=" Enter Product name"
             className="form-control"
             id="exampleInputEmail1"
@@ -50,6 +51,7 @@ const AddProduct = ({ postData }) => {
           </label>
           <input
             type="number"
+            required
             placeholder="Product price"
             className="form-control"
             id="exampleInputPassword1"
@@ -65,6 +67,7 @@ const AddProduct = ({ postData }) => {
           </label>
           <input
             type="number"
+            required
             placeholder="Product Qauntity"
             className="form-control"
             id="exampleInputPassword1"
@@ -84,6 +87,7 @@ const AddProduct = ({ postData }) => {
             </span>
             <input
               type="text"
+              required
               placeholder="Product Image"
               className="form-control"
               id="basic-url"
